@@ -1,4 +1,4 @@
 DateTime
 ========
 
-DateTime library
+Java DateTime class using java.util.Calendar
