@@ -423,7 +423,7 @@ public class DateTime {
 		try {
 			return new SimpleDateFormat(format).format(this.calendar.getTime());
 		} catch (Exception e) {
-			System.out.println("BONO Error: Unsupported date format or object.");
+			System.out.println("Error: Unsupported date format or object.");
 			return "";
 		}
 	}
